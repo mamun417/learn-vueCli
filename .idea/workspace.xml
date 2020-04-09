@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e732616d-747e-4762-8164-01a953ddd0b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/learn-vueJs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/check-versions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/webpack.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/webpack.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/test.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TodoItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/e2e/custom-assertions/elementCount.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/e2e/nightwatch.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/e2e/runner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/e2e/specs/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/jest.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aIysr0qB9TOL7NITgXEEdAYS3S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e732616d-747e-4762-8164-01a953ddd0b6" name="Default Changelist" comment="" />
+      <created>1586437611629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586437611629</updated>
+      <workItem from="1586437615053" duration="47000" />
+      <workItem from="1586451392489" duration="522000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
