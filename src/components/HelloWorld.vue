@@ -8,13 +8,13 @@
 
             <ul class="list-group" style="margin-top: 15px">
                 <todo-item
-                    :item="item"
-                    :key="index"
-                    :show-remove="!item.complete"
-                    @removeItem="removeItem(index)"
-                    @toogle="$set(item, 'complete', !item.complete)"
-                    @updateValue="$set(item, 'content', $event)"
-                    v-for="(item, index) in filteredItems"
+                        v-for="(item, index) in filteredItems"
+                        :key="index"
+                        :item="item"
+                        @removeItem="removeItem(index)"
+                        @toogle="$set(item, 'complete', !item.complete)"
+                        @updateValue="$set(item, 'content', $event)"
+                        :show-remove="!item.complete"
                 />
             </ul>
 
@@ -49,7 +49,6 @@
                 newItem: '',
                 items: [],
                 currentPlan: 'all',
-                //filteredItems: [],
             }
         },
 
@@ -82,24 +81,24 @@
         },
 
         // watch: {
-        //     currentPlan: {
-        //         handler() {
-        //             if (this.currentPlan === 'all') this.filteredItems = this.items;
+        //   currentPlan: {
+        //     handler() {
+        //       if (this.currentPlan === 'all') this.filteredItems = this.items;
         //
-        //             if (this.currentPlan === 'active') {
-        //                 this.filteredItems = this.items.filter(i => {
-        //                     return !i.complete
-        //                 })
-        //             }
+        //       if (this.currentPlan === 'active') {
+        //         this.filteredItems = this.items.filter(i => {
+        //           return !i.complete
+        //         })
+        //       }
         //
-        //             if (this.currentPlan === 'completed') {
-        //                 this.filteredItems = this.items.filter(i => {
-        //                     return i.complete
-        //                 })
-        //             }
-        //         },
-        //         immediate: true
-        //     }
+        //       if (this.currentPlan === 'completed') {
+        //         this.filteredItems = this.items.filter(i => {
+        //           return i.complete
+        //         })
+        //       }
+        //     },
+        //     immediate: true
+        //   }
         // }
     }
 </script>

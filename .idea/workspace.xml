@@ -1,43 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e732616d-747e-4762-8164-01a953ddd0b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/learn-vueJs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/check-versions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/vue-loader.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/webpack.dev.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/webpack.prod.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/dev.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/prod.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/test.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TodoItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/e2e/custom-assertions/elementCount.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/e2e/nightwatch.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/e2e/runner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/e2e/specs/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/unit/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/unit/jest.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/unit/setup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/mamun.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/cros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Inventory.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Details.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TodoItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +61,22 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -78,8 +89,16 @@
       <option name="presentableId" value="Default" />
       <updated>1586437611629</updated>
       <workItem from="1586437615053" duration="47000" />
-      <workItem from="1586451392489" duration="522000" />
+      <workItem from="1586451392489" duration="4943000" />
     </task>
+    <task id="LOCAL-00001" summary="Project add to git">
+      <created>1586452004846</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586452004846</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +116,24 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Project add to git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project add to git" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="285" y="0" width="786" height="741" key="CommitChangelistDialog2" timestamp="1586452004454">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="285" y="0" width="786" height="741" key="CommitChangelistDialog2/0.0.1366.741@0.0.1366.741" timestamp="1586452004454" />
+    <state x="278" y="102" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1586452006288">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="278" y="102" width="800" height="543" key="Vcs.Push.Dialog.v2/0.0.1366.741@0.0.1366.741" timestamp="1586452006288" />
+    <state x="347" y="160" key="run.anything.popup" timestamp="1586453322385">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="347" y="160" key="run.anything.popup/0.0.1366.741@0.0.1366.741" timestamp="1586453322385" />
   </component>
 </project>

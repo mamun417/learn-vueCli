@@ -35,7 +35,7 @@
                 this.showInput = false;
             }
         },
-        computed: {}
+        computed: {},
 
     }
 </script>
