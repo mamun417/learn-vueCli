@@ -31,13 +31,7 @@
         data() {
             return {
                 items: [],
-                cart: [{
-                    "id": 1,
-                    "title": "Software Consultant",
-                    "photo": "http://dummyimage.com/250x250.png/ff4444/ffffff",
-                    "price": "$0.32",
-                    "description": "Cras in purus eu magna vulputate luctus."
-                }],
+                cart: [],
             }
         },
 
