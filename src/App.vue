@@ -10,7 +10,8 @@
         <navbar @search="search"></navbar>
         <div class="container" style="margin-top: 20px">
             <div class="row">
-                <inventory @addToCart="addToCart" :items="items"></inventory>
+                <!--<inventory @addToCart="addToCart" :items="items"></inventory>-->
+                <router-view/>
                 <cart @removeCart="removeCart" :items="cart"></cart>
             </div>
         </div>
@@ -21,7 +22,7 @@
 
     import Cart from "./components/Cart";
     import Navbar from "./components/Navbar";
-    import Inventory from "./components/Inventory";
+    import Inventory from "./components/views/Inventory";
     import data from './data';
 
     export default {

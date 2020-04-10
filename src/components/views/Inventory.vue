@@ -1,12 +1,11 @@
 <template>
     <div class="col-sm-8">
-        <div class="row">
-            <div v-if="items.length > 0" v-for="(item, index) in items" :key="index" class="col-sm-4 single_item">
+        <div v-if="!loading" class="row">
+            <div v-for="(item, index) in items" :key="index" class="col-sm-4 single_item">
                 <div class="card">
-                    <!-- <router-link :to="{ path:'/item/'+ ++index }">
-                         <img class="card-img-top" src="./assets/download.svg" alt="Card image cap">
-                     </router-link>-->
-                    <img class="card-img-top" :src="item.photo" alt="Card image cap">
+                    <router-link :to="{ path:'/item/'+ ++index }" title="Item Details">
+                        <img class="card-img-top" :src="item.photo" alt="Card image cap">
+                    </router-link>
                     <div class="card-body">
                         <h5 class="card-title">{{ item.title }}</h5>
                         <p class="card-text">{{ item.description.substring(0, 20) }}</p>
@@ -19,6 +18,7 @@
                 <h3>No item found</h3>
             </div>
         </div>
+        <h2 v-else >Loading...</h2>
     </div>
 </template>
 
@@ -27,22 +27,31 @@
     export default {
         name: 'Inventory',
         components: {},
-        props: {
-            items: {
-                type: Array,
-                default: () => ({})
-            },
-        },
+        props: {},
 
         data() {
             return {
-
+                items: [],
+                loading: true,
             }
         },
 
+        mounted() {
+            this.fetchInventory();
+        },
+
         methods: {
-            addToCart(item){
+            addToCart(item) {
                 this.$emit('addToCart', item);
+            },
+
+            fetchInventory() {
+                let self = this;
+                axios.get(apiUrl+'/items')
+                    .then(function (response) {
+                        self.items = response.data;
+                        self.loading = false;
+                    })
             }
         },
 
@@ -54,6 +63,7 @@
     .single_item {
         margin-bottom: 20px;
     }
+
     .card {
         height: 450px;
     }

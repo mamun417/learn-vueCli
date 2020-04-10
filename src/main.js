@@ -4,8 +4,12 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import Axios from "axios";
+window.axios = Axios;
+
+window.apiUrl = 'http://localhost:3000';
+
 window.$ = window.jQuery = require('jquery');
-import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 Vue.config.productionTip = false
@@ -13,7 +17,7 @@ Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  //router,
+  router,
   components: { App },
   template: '<App/>'
 })
