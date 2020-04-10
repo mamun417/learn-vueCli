@@ -11,7 +11,7 @@
         <div class="container" style="margin-top: 20px">
             <div class="row">
                 <inventory @addToCart="addToCart" :items="items"></inventory>
-                <cart :items="cart"></cart>
+                <cart @removeCart="removeCart" :items="cart"></cart>
             </div>
         </div>
     </div>
@@ -42,6 +42,11 @@
         methods: {
             addToCart(item){
                 this.cart.push(item);
+            },
+
+            removeCart(index){
+                //this.cart.splice(index, 1);
+                this.$delete(this.cart, index);
             }
         },
 

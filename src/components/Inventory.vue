@@ -9,7 +9,7 @@
                     <img class="card-img-top" :src="item.photo" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">{{ item.title }}</h5>
-                        <p class="card-text">{{ item.description.substring(0, 40) }}</p>
+                        <p class="card-text">{{ item.description.substring(0, 20) }}</p>
                         <p class="card-text">Price: {{ item.price }}</p>
                         <a @click="addToCart(item)" href="#" class="btn btn-primary">Add To Cart</a>
                     </div>
