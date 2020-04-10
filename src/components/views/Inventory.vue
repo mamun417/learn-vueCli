@@ -51,7 +51,7 @@
                     .then(function (response) {
                         self.items = response.data;
                         self.loading = false;
-                    })
+                    });
             }
         },
 

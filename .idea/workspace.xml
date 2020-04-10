@@ -20,15 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e732616d-747e-4762-8164-01a953ddd0b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/mamun.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/mamun.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Inventory.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/views/Inventory.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Details.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/views/Details.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/views/Details.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/views/Details.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.19.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../backup_projects/multi-purpose-laravel-vue-application" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../api-server" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,7 +87,7 @@
       <updated>1586437611629</updated>
       <workItem from="1586437615053" duration="47000" />
       <workItem from="1586451392489" duration="5445000" />
-      <workItem from="1586500976307" duration="20629000" />
+      <workItem from="1586500976307" duration="21481000" />
     </task>
     <task id="LOCAL-00001" summary="Project add to git">
       <created>1586452004846</created>
@@ -138,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586519135191</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fetch Inventory">
+      <created>1586537890555</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586537890555</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,21 +176,22 @@
     <MESSAGE value="show dynamic total done" />
     <MESSAGE value="remove from cart done" />
     <MESSAGE value="search functionality done" />
-    <option name="LAST_COMMIT_MESSAGE" value="search functionality done" />
+    <MESSAGE value="fetch Inventory" />
+    <option name="LAST_COMMIT_MESSAGE" value="fetch Inventory" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="285" y="0" width="786" height="741" key="CommitChangelistDialog2" timestamp="1586519135038">
+    <state x="285" y="0" width="786" height="741" key="CommitChangelistDialog2" timestamp="1586537889625">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="285" y="0" width="786" height="741" key="CommitChangelistDialog2/0.0.1366.741@0.0.1366.741" timestamp="1586519135038" />
+    <state x="285" y="0" width="786" height="741" key="CommitChangelistDialog2/0.0.1366.741@0.0.1366.741" timestamp="1586537889625" />
     <state x="100" y="100" width="1166" height="541" key="DiffContextDialog" timestamp="1586531365786">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state x="100" y="100" width="1166" height="541" key="DiffContextDialog/0.0.1366.741@0.0.1366.741" timestamp="1586531365786" />
-    <state x="466" y="128" width="424" height="491" key="FileChooserDialogImpl" timestamp="1586536972848">
+    <state x="466" y="128" width="424" height="491" key="FileChooserDialogImpl" timestamp="1586538321409">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="466" y="128" width="424" height="491" key="FileChooserDialogImpl/0.0.1366.741@0.0.1366.741" timestamp="1586536972848" />
+    <state x="466" y="128" width="424" height="491" key="FileChooserDialogImpl/0.0.1366.741@0.0.1366.741" timestamp="1586538321409" />
     <state width="1320" height="164" key="GridCell.Tab.0.bottom" timestamp="1586533968401">
       <screen x="0" y="0" width="1366" height="741" />
     </state>

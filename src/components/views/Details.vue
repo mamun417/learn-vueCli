@@ -8,15 +8,18 @@
                 <div class="row">
 
                     <div class="col-md-6">
-                        <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+                        <img class="img-fluid" :src="item.photo" alt="">
                     </div>
 
                     <div class="col-md-6">
-                        {{ $route.params.id }}
                         <h3>Description</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
-                            pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec
-                            metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                        <p>{{ item.description }}</p>
+
+                        <h3>Title</h3>
+                        <p>{{ item.title }}</p>
+
+                        <h3>Price</h3>
+                        <p>${{ item.price }}</p>
                     </div>
 
                 </div>
@@ -68,7 +71,17 @@
         props: {},
 
         data() {
-            return {}
+            return {
+                item: {}
+            }
+        },
+
+        mounted() {
+            let self = this;
+            axios.get(apiUrl+'/item/'+this.$route.params.id)
+                .then(function (response) {
+                    self.item = response.data;
+                });
         },
 
         methods: {},
