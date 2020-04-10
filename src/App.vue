@@ -7,7 +7,7 @@
 
 <template>
     <div>
-        <navbar></navbar>
+        <navbar @search="search"></navbar>
         <div class="container" style="margin-top: 20px">
             <div class="row">
                 <inventory @addToCart="addToCart" :items="items"></inventory>
@@ -47,6 +47,12 @@
             removeCart(index){
                 //this.cart.splice(index, 1);
                 this.$delete(this.cart, index);
+            },
+
+            search(keyword){
+                this.items = data.filter( item => {
+                    return item.title.toLowerCase().indexOf(keyword.toLowerCase()) !== -1;
+                })
             }
         },
 

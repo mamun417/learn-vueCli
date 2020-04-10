@@ -1,7 +1,7 @@
 <template>
     <div class="col-sm-8">
         <div class="row">
-            <div v-for="(item, index) in items" :key="index" class="col-sm-4 single_item">
+            <div v-if="items.length > 0" v-for="(item, index) in items" :key="index" class="col-sm-4 single_item">
                 <div class="card">
                     <!-- <router-link :to="{ path:'/item/'+ ++index }">
                          <img class="card-img-top" src="./assets/download.svg" alt="Card image cap">
@@ -14,6 +14,9 @@
                         <a @click="addToCart(item)" href="#" class="btn btn-primary">Add To Cart</a>
                     </div>
                 </div>
+            </div>
+            <div v-if="items.length === 0">
+                <h3>No item found</h3>
             </div>
         </div>
     </div>
