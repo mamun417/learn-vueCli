@@ -27,6 +27,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e732616d-747e-4762-8164-01a953ddd0b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/views/Details.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/views/Details.vue" afterDir="false" />
@@ -241,13 +243,14 @@
     <MESSAGE value="addToCart by store done" />
     <MESSAGE value="show cart items from store" />
     <MESSAGE value="remove from cart by store" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove from cart by store" />
+    <MESSAGE value="use vuex-persistedstate" />
+    <option name="LAST_COMMIT_MESSAGE" value="use vuex-persistedstate" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="285" y="0" width="786" height="741" key="CommitChangelistDialog2" timestamp="1586671119338">
+    <state x="285" y="0" width="786" height="741" key="CommitChangelistDialog2" timestamp="1586679737923">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="285" y="0" width="786" height="741" key="CommitChangelistDialog2/0.0.1366.741@0.0.1366.741" timestamp="1586671119338" />
+    <state x="285" y="0" width="786" height="741" key="CommitChangelistDialog2/0.0.1366.741@0.0.1366.741" timestamp="1586679737923" />
     <state x="100" y="100" width="1166" height="541" key="DiffContextDialog" timestamp="1586531365786">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
