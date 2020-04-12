@@ -30,7 +30,6 @@
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -244,10 +243,10 @@
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state x="444" y="0" width="467" height="741" key="RollbackChangesDialog/0.0.1366.741@0.0.1366.741" timestamp="1586531323560" />
-    <state x="278" y="102" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1586519153300">
+    <state x="278" y="102" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1586667539725">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="278" y="102" width="800" height="543" key="Vcs.Push.Dialog.v2/0.0.1366.741@0.0.1366.741" timestamp="1586519153300" />
+    <state x="278" y="102" width="800" height="543" key="Vcs.Push.Dialog.v2/0.0.1366.741@0.0.1366.741" timestamp="1586667539725" />
     <state x="100" y="100" width="1166" height="541" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586576680049">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
