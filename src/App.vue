@@ -1,10 +1,3 @@
-<!--<template>
-  <div id="app">
-    &lt;!&ndash;<img src="./assets/logo.png">&ndash;&gt;
-    <router-view title="other"/>
-  </div>
-</template>-->
-
 <template>
     <div>
         <navbar @search="search"></navbar>
