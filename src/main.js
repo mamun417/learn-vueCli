@@ -15,12 +15,15 @@ window.$ = window.jQuery = require('jquery');
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import store from './store'
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })

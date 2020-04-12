@@ -11,6 +11,7 @@
                         <p class="card-text">{{ item.description.substring(0, 20) }}</p>
                         <p class="card-text">Price: {{ item.price }}</p>
                         <a @click="addToCart(item)" href="#" class="btn btn-primary">Add To Cart</a>
+                        <!--<a @click="$store.commit('addToCart', item)" href="#" class="btn btn-primary">Add To Cart</a>-->
                     </div>
                 </div>
             </div>
@@ -42,7 +43,8 @@
 
         methods: {
             addToCart(item) {
-                this.$emit('addToCart', item);
+                //this.$emit('addToCart', item);
+                this.$store.commit('addToCart', item); // can be call from @click
             },
 
             fetchInventory() {
