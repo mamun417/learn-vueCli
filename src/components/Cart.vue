@@ -25,10 +25,10 @@
         name: 'Cart',
         components: {},
         props: {
-            items:{
+            /*items:{
                 type: Array,
                 default: () => ({})
-            }
+            }*/
         },
 
         data() {
@@ -45,6 +45,9 @@
         },
 
         computed: {
+            items(){
+                return this.$store.getters.getCart; // can be use into data {items: this.$store.getters.getCart}
+            },
 
             getTotal(){
                 let total = 0;

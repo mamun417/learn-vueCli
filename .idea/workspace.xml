@@ -26,9 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e732616d-747e-4762-8164-01a953ddd0b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/views/Inventory.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/views/Inventory.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586667548902</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="addToCart by store done">
+      <created>1586669596673</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586669596673</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,13 +220,14 @@
     <MESSAGE value="search functionality done" />
     <MESSAGE value="fetch Inventory" />
     <MESSAGE value="fetch inventory details" />
-    <option name="LAST_COMMIT_MESSAGE" value="fetch inventory details" />
+    <MESSAGE value="addToCart by store done" />
+    <option name="LAST_COMMIT_MESSAGE" value="addToCart by store done" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="285" y="0" width="786" height="741" key="CommitChangelistDialog2" timestamp="1586667548714">
+    <state x="285" y="0" width="786" height="741" key="CommitChangelistDialog2" timestamp="1586669596518">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="285" y="0" width="786" height="741" key="CommitChangelistDialog2/0.0.1366.741@0.0.1366.741" timestamp="1586667548714" />
+    <state x="285" y="0" width="786" height="741" key="CommitChangelistDialog2/0.0.1366.741@0.0.1366.741" timestamp="1586669596518" />
     <state x="100" y="100" width="1166" height="541" key="DiffContextDialog" timestamp="1586531365786">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
