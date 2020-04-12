@@ -15,15 +15,17 @@
                     </div>
                 </div>
             </div>
-            <div v-if="items.length === 0">
+          <!--  <div v-if="getInventory.length === 0">
                 <h3>No item found</h3>
-            </div>
+            </div>-->
         </div>
         <h2 v-else >Loading...</h2>
     </div>
 </template>
 
 <script>
+
+    import { mapGetters } from 'vuex'
 
     export default {
         name: 'Inventory',
@@ -32,9 +34,19 @@
 
         data() {
             return {
-                items: [],
+                //items: [],
                 loading: true,
             }
+        },
+
+        computed: {
+            items(){
+                return this.$store.getters.getInventory;
+            }
+
+           /* ...mapGetters({
+                'items': 'getInventory',
+            })*/
         },
 
         mounted() {
@@ -44,20 +56,20 @@
         methods: {
             addToCart(item) {
                 //this.$emit('addToCart', item);
-                this.$store.commit('addToCart', item); // can be call from @click
+                //this.$store.commit('addToCart', item); // can be call from @click // for mutations
+                this.$store.dispatch('addToCart', item); // can be call from @click // for actions
             },
 
             fetchInventory() {
                 let self = this;
                 axios.get(apiUrl+'/items')
                     .then(function (response) {
-                        self.items = response.data;
+                        //self.items = response.data;
+                        self.$store.commit('setInventory', response.data);
                         self.loading = false;
                     });
             }
-        },
-
-        computed: {}
+        }
     }
 </script>
 

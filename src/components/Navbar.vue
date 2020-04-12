@@ -43,9 +43,11 @@
 
         methods: {
             search(){
+                let self = this;
                 axios.get(apiUrl+'/search/'+this.keyword)
                     .then(function (response) {
                         console.log(response.data);
+                        self.$store.commit('setInventory', response.data);
                     });
 
                 //this.$emit('search', this.keyword);

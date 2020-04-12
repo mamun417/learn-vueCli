@@ -20,8 +20,10 @@
 
                         <h3>Price</h3>
                         <p>${{ item.price }}</p>
-                    </div>
 
+                        <a @click="addToCart(item)" href="#" class="btn btn-primary float-right">Add To Cart</a>
+
+                    </div>
                 </div>
                 <!-- /.row -->
 
@@ -84,7 +86,11 @@
                 });
         },
 
-        methods: {},
+        methods: {
+            addToCart(item){
+                this.$store.commit('addToCart', item); // can be call from @click
+            }
+        },
 
         computed: {}
     }

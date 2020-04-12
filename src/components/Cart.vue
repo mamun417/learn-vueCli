@@ -2,10 +2,10 @@
     <div class="col-sm-4">
         <ul class="list-group">
             <li class="list-group-item d-flex justify-content-between align-items-center">
-                Title
-                <span>Price</span>
-                <span>Action</span>
-            </li><br>
+                <h5>Title</h5>
+                <h5><span>Price</span></h5>
+                <h5><span>Action</span></h5>
+            </li>
 
             <li v-for="(item, index) in items" class="list-group-item d-flex justify-content-between align-items-center">
                 {{ item.title }}
@@ -14,8 +14,15 @@
                     <img src="../assets/cros.png" alt="Remove" style="height: 20px; width: 20px;">
                 </span>
             </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <h5 class="float-left" style="margin-top: 10px">Total: ${{ getTotal }}</h5>
+                <span>
+                    <a v-if="items.length" @click="$store.commit('clearCart')" href="#" class="btn btn-success">Checkout</a>
+                </span>
+            </li>
+
         </ul>
-        <h5 class="float-left" style="margin-top: 10px">Total: ${{ getTotal }}</h5>
     </div>
 </template>
 
@@ -57,7 +64,7 @@
                     total += parseFloat(item.price);
                 });
 
-                return total;
+                return total.toFixed(2);
             }
         }
     }
