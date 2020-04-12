@@ -40,7 +40,8 @@
         methods: {
             removeCart(index){
                 //this.items.splice(index, 1);
-                this.$emit('removeCart', index);
+                //this.$emit('removeCart', index);
+                this.$store.commit('removeCart', index);
             }
         },
 

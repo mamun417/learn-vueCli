@@ -28,6 +28,7 @@
     <list default="true" id="e732616d-747e-4762-8164-01a953ddd0b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586669596673</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="show cart items from store">
+      <created>1586669959541</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586669959541</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,13 +229,14 @@
     <MESSAGE value="fetch Inventory" />
     <MESSAGE value="fetch inventory details" />
     <MESSAGE value="addToCart by store done" />
-    <option name="LAST_COMMIT_MESSAGE" value="addToCart by store done" />
+    <MESSAGE value="show cart items from store" />
+    <option name="LAST_COMMIT_MESSAGE" value="show cart items from store" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="285" y="0" width="786" height="741" key="CommitChangelistDialog2" timestamp="1586669596518">
+    <state x="285" y="0" width="786" height="741" key="CommitChangelistDialog2" timestamp="1586669959354">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="285" y="0" width="786" height="741" key="CommitChangelistDialog2/0.0.1366.741@0.0.1366.741" timestamp="1586669596518" />
+    <state x="285" y="0" width="786" height="741" key="CommitChangelistDialog2/0.0.1366.741@0.0.1366.741" timestamp="1586669959354" />
     <state x="100" y="100" width="1166" height="541" key="DiffContextDialog" timestamp="1586531365786">
       <screen x="0" y="0" width="1366" height="741" />
     </state>

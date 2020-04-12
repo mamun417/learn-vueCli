@@ -26,6 +26,11 @@ export default new Vuex.Store({
     mutations: {
         addToCart: (state, payload) => {
             state.cart.push(payload);
-        }
+        },
+
+        removeCart: (state, payload) => {
+            //state.cart.splice(payload, 1);
+            Vue.delete(state.cart, payload);
+        },
     }
 })
