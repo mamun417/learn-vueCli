@@ -8,13 +8,13 @@
 
             <ul class="list-group" style="margin-top: 15px">
                 <todo-item
-                        v-for="(item, index) in filteredItems"
-                        :key="index"
-                        :item="item"
-                        @removeItem="removeItem(index)"
-                        @toogle="$set(item, 'complete', !item.complete)"
-                        @updateValue="$set(item, 'content', $event)"
-                        :show-remove="!item.complete"
+                    v-for="(item, index) in filteredItems"
+                    :key="index"
+                    :item="item"
+                    @removeItem="removeItem(index)"
+                    @toogle="$set(item, 'complete', !item.complete)"
+                    @updateValue="$set(item, 'content', $event)"
+                    :show-remove="!item.complete"
                 />
             </ul>
 

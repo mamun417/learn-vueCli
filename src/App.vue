@@ -1,11 +1,13 @@
 <template>
     <div>
-        <navbar @search="search"></navbar>
+       <!-- <navbar @search="search"></navbar>-->
+        <navbar></navbar>
         <div class="container" style="margin-top: 20px">
             <div class="row">
                 <!--<inventory @addToCart="addToCart" :items="items"></inventory>-->
                 <router-view/>
-                <cart @removeCart="removeCart" :items="cart"></cart>
+                <!--<cart @removeCart="removeCart" :items="cart"></cart>-->
+                <cart></cart>
             </div>
         </div>
     </div>
@@ -16,7 +18,7 @@
     import Cart from "./components/Cart";
     import Navbar from "./components/Navbar";
     import Inventory from "./components/views/Inventory";
-    import data from './data';
+    //import data from './data';
 
     export default {
         name: 'App',
@@ -24,30 +26,30 @@
 
         data() {
             return {
-                items: [],
-                cart: [],
+                /*items: [],
+                cart: [],*/
             }
         },
 
         mounted() {
-            this.items = data;
+            //this.items = data;
         },
 
         methods: {
-            addToCart(item){
-                this.cart.push(item);
-            },
+            // addToCart(item){
+            //     this.cart.push(item);
+            // },
 
-            removeCart(index){
-                //this.cart.splice(index, 1);
-                this.$delete(this.cart, index);
-            },
-
-            search(keyword){
-                this.items = data.filter( item => {
-                    return item.title.toLowerCase().indexOf(keyword.toLowerCase()) !== -1;
-                })
-            }
+            // removeCart(index){
+            //     //this.cart.splice(index, 1);
+            //     this.$delete(this.cart, index);
+            // },
+            //
+            // search(keyword){
+            //     this.items = data.filter( item => {
+            //         return item.title.toLowerCase().indexOf(keyword.toLowerCase()) !== -1;
+            //     })
+            // }
         },
 
         computed: {}
